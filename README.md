@@ -1,0 +1,4 @@
+# PiSecCam
+**PiSecCam** runs on the Raspberry Pi and records video clips when motion is detected by the Pi's camera. It uses the [picamera library](https://picamera.readthedocs.io) for interacting with the camera, video streams, etc. and [OpenCV](http://opencv.org/) for the motion detection tools. I heavily relied on [pyimagesearch](http://www.pyimagesearch.com) as a starting guide, so big thanks to Adrian for his site and the great tutorials he has posted there.
+
+I will still be working on this project to add management of the video files (older files to be deleted to make sure there's enough space for new recordings) and maybe more.
